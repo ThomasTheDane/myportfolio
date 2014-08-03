@@ -4,6 +4,10 @@
 html,body {
   height: 100%;
   width: 100%;
+  font-style: lato;
+  div{
+    border: 1px dashed #000000;
+  }
 }
 .vert-text {
   display: table-cell;
@@ -12,10 +16,17 @@ html,body {
   h1 {
     padding: 0;
     margin: 0;
-    font-size: 4.5em;
+    font-size: 5.5em;
+    color: white;
+    font-weight: 700;
+  }
+  h3{
+    padding: 10px;
+    font-size: 4;
     font-weight: 700;
   }
 }
+
 #sidebar-wrapper {
   margin-right: -250px;
   right: 0;
@@ -86,6 +97,7 @@ html,body {
 .toggle {
   margin: 5px 5px 0 0;
 }
+
 .header {
   display: table;
   height: 100%;
@@ -97,59 +109,42 @@ html,body {
   -o-background-size: cover;
   background-size: cover;
 }
-.intro {
-  padding: 50px 0;
-}
-.services {
-  background: #7fbbda;
-  padding: 50px 0;
-  color: #ffffff;
-}
-.service-item {
-  margin-bottom: 15px;
-}
-i.service-icon {
-  border: 3px solid #ffffff;
-  border-radius: 50%;
-  display: inline-block;
-  font-size: 56px;
-  width: 140px;
-  height: 140px;
-  line-height: 136px;
-  vertical-align: middle;
-  text-align: center;
-}
-i.service-icon:hover {
-  font-size: 68px;
-}
-.callout {
-  color: #ffffff;
-  display: table;
-  height: 400px;
-  width: 100%;
-  background: url(../images/section-two.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.portfolio {
-  padding: 50px 0;
-}
-.portfolio-item {
-  margin-bottom: 25px;
-}
-.img-portfolio {
-  margin: 0 auto;
-}
-.call-to-action {
-  color: #ffffff;
-  background: #0a5175;
-  padding: 50px 0;
-  .btn {
-    margin: 10px;
+
+#proficiencies{
+  padding-top: 30px;
+  h4{
+    font-size: 40px;
+    text-align: center;
+  }
+  h5{
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .language{
+    .description{
+    }
+    h6{
+      font-size: 16px;
+    }
+    .image{
+      background-color: red;
+      height: 100px;
+    }
+  }
+  .framework{
+    .description{
+    }
+    h6{
+      font-size: 16px;
+    }
+    .image{
+      background-color: red;
+      height: 100px;
+    }
   }
 }
+
 footer {
   padding: 100px 0;
 }

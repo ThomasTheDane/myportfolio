@@ -5958,6 +5958,11 @@ html,
 body {
   height: 100%;
   width: 100%;
+  font-style: lato;
+}
+html div,
+body div {
+  border: 1px dashed #000000;
 }
 .vert-text {
   display: table-cell;
@@ -5967,7 +5972,13 @@ body {
 .vert-text h1 {
   padding: 0;
   margin: 0;
-  font-size: 4.5em;
+  font-size: 5.5em;
+  color: white;
+  font-weight: 700;
+}
+.vert-text h3 {
+  padding: 10px;
+  font-size: 4;
   font-weight: 700;
 }
 #sidebar-wrapper {
@@ -6052,58 +6063,30 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-.intro {
-  padding: 50px 0;
+#proficiencies {
+  padding-top: 30px;
 }
-.services {
-  background: #7fbbda;
-  padding: 50px 0;
-  color: #ffffff;
-}
-.service-item {
-  margin-bottom: 15px;
-}
-i.service-icon {
-  border: 3px solid #ffffff;
-  border-radius: 50%;
-  display: inline-block;
-  font-size: 56px;
-  width: 140px;
-  height: 140px;
-  line-height: 136px;
-  vertical-align: middle;
+#proficiencies h4 {
+  font-size: 40px;
   text-align: center;
 }
-i.service-icon:hover {
-  font-size: 68px;
+#proficiencies h5 {
+  font-size: 30px;
+  text-align: center;
 }
-.callout {
-  color: #ffffff;
-  display: table;
-  height: 400px;
-  width: 100%;
-  background: url(../images/section-two.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#proficiencies .language h6 {
+  font-size: 16px;
 }
-.portfolio {
-  padding: 50px 0;
+#proficiencies .language .image {
+  background-color: red;
+  height: 100px;
 }
-.portfolio-item {
-  margin-bottom: 25px;
+#proficiencies .framework h6 {
+  font-size: 16px;
 }
-.img-portfolio {
-  margin: 0 auto;
-}
-.call-to-action {
-  color: #ffffff;
-  background: #0a5175;
-  padding: 50px 0;
-}
-.call-to-action .btn {
-  margin: 10px;
+#proficiencies .framework .image {
+  background-color: red;
+  height: 100px;
 }
 footer {
   padding: 100px 0;
