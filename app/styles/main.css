@@ -5960,10 +5960,6 @@ body {
   width: 100%;
   font-style: lato;
 }
-html div,
-body div {
-  border: 1px dashed #000000;
-}
 .vert-text {
   display: table-cell;
   vertical-align: middle;
@@ -6078,15 +6074,34 @@ body div {
   font-size: 16px;
 }
 #proficiencies .language .image {
-  background-color: red;
-  height: 100px;
+  text-align: center;
+  padding: 0;
+}
+#proficiencies .language .image .logo {
+  height: 110px;
+  margin: 10px;
 }
 #proficiencies .framework h6 {
   font-size: 16px;
 }
 #proficiencies .framework .image {
-  background-color: red;
-  height: 100px;
+  text-align: center;
+  padding: 0;
+}
+#proficiencies .framework .image .logo {
+  height: 110px;
+  margin: 10px;
+}
+#proficiencies .general h6 {
+  font-size: 16px;
+}
+#proficiencies .general .image {
+  text-align: center;
+  padding: 0;
+}
+#proficiencies .general .image .logo {
+  height: 110px;
+  margin: 10px;
 }
 footer {
   padding: 100px 0;
