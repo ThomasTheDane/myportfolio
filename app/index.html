@@ -36,7 +36,7 @@
       <h1>Thomas Nattestad</h1>
       <h3>Develop for the Love</h3>
       <h3>Test for the Quality</h3>
-      <h3>Release for the People</h3>
+      <h3>Release for the Community</h3>
     </div>
   </div>
   <!-- /Full Page Image Header Area -->
@@ -73,7 +73,7 @@
           <div class="col-md-9 description vert-text">
             <h6>Objective-C</h6>
             <p>
-              Used Objective-C to write 14 iPhone applications that were approved by Apple for the iPhone App Store. Familiar with it's many weird bits and pieces that make it so special.
+              Used Objective-C to write 13 iPhone applications that were approved by Apple for the iPhone App Store. Familiar with it's many weird bits and pieces that make it so special.
             </p>
           </div>
           <div class="col-md-3 image">
@@ -134,7 +134,7 @@
           <div class="col-md-9 description vert-text">
             <h6>iOS</h6>
             <p>
-              Full familiarity with wide range of iOS SDK frameworks and UI implementations. Used these to develop 14 iPhone apps that have been downloaded more than 45,000 times. Also familiar with new Swift language.
+              Full familiarity with wide range of iOS SDK frameworks and UI implementations. Used these to develop 13 iPhone apps that have been downloaded more than 45,000 times. Also familiar with new Swift language.
             </p>
           </div>
         </div>
@@ -162,6 +162,7 @@
         </div>
       </div>
     </div>
+    <hr>
     <div class="row">
       <div class="col-md-12">
         <h5>General</h5>
@@ -223,7 +224,92 @@
   <!-- /Proficiencies -->
 
   <!-- Projects -->
-
+  <div id="projects">
+    <h4>Projects</h4>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="project" id="iphoneArduino">
+          <div class="description">
+            <h1>iPhone to Microcontroller</h1>
+            <ul class="text">
+              <li>Developed an electrical and software system to allow iPhone to communicate to an Arduino microcontroller through the iPhone audio jack</li>
+              <li>Included encrypting the message using Frequency Shift Keying, such that it could be transferred through iPhone hardware</li>
+              <li>Electrical system decodes the signal and displays the message that was sent</li>
+              <li>Electrical system included several extremely specific filters and operational amplifiers</li>
+              <!--<li>See the full report here</li>-->
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="project" id="iPhoneApps">
+          <div class="description">
+            <h1>13 iPhone Apps</h1>
+            <ul class="text">
+              <li>Developed 13 iPhone Apps release on Apple App Store</li>
+              <li>Apps downloaded more than 45,000 times</li>
+              <li>Apps cover wide range including puzzle games, local newspaper content distribution, graphing calculator, and algorithmic image encryption/decryption</li>
+              <li>Created the UI, icons, and code logic for each, as well as (minimal) marketing</li>
+              <li>View all apps <a href="https://itunes.apple.com/us/artist/thomas-nattestad/id327461604">here</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="project" id="cdc">
+          <div class="description">
+            <h1>Machine Learning for CDC</h1>
+            <ul class="text">
+              <li>Semester long project working with government branch CDC (Center for Disease Control)</li>
+              <li>Initial project to create heat map showing traffic by state</li>
+              <li>Larger project using machine learning to correlate news stories to relevant CDC pages <b>and</b> score the correlation</li>
+              <li>Involved using web scraping and the machine learning technique of TF-IDF</li>
+              <!--<li>See full report delivered to CDC here</li>-->
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="project" id="usTubes">
+          <div class="description">
+            <h1>UsTube</h1>
+            <ul class="text">
+              <li>A project to allow users to create and contribute to playlists in real time</li>
+              <li>Allows users to create a "room" where they can specify who can do what with the playlist and then view the playlist right from a simple url that they can share easily</li>
+              <li>Includes full user creation with authentication, password reset, and signup services through any Facebook, Google, Twitter, or Github account</li>
+              <li>Uses a full Node backend with Jade template rendering, as well as making use of the client side Firebase library</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="project" id="stabilizedGimbal">
+          <div class="description">
+            <h1>Stabilized Gimal System</h1>
+            <ul class="text">
+              <li>Developed a self-stabilizing target-tracking gimbal to hold a camera and record steady footage of moving target</li>
+              <li>Included significant mechanical, electrical, and software components that had to integrate smoothly</li>
+              <li>In addition to a gyro, uses a array of 9 IR sensors to track a moving target with an IR beacon attached</li>
+              <li>See full report <a href="http://quadcoptervideographer.weebly.com/">here</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="project" id="sortingInAssembly">
+          <div class="description">
+            <h1>Sorting Algorithms in Assembly</h1>
+            <ul class="text">
+              <li>A quest to write out some of the famous sorting algorithms in the very basic language of Assembly</li>
+              <li>Also did a raw operation-count analysis to get unique perspective on algorithms' differences</li>
+              <li>Implemented both Bubble Sort and Quick Sort</li>
+              <li>Compared raw counts with C++ implementation of same algorithms</li>
+              <li>See full report <a href="http://sortingalgorithmsinassembly.weebly.com/">here</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </div>
   <!-- /Projects-->
 
   <!-- Footer -->
@@ -231,13 +317,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-md-offset-3 text-center">
-          <ul class="list-inline">
-            <li><i class="icon-facebook icon-2x"></i></li>
-            <li><i class="icon-twitter icon-2x"></i></li>
-            <li><i class="icon-dribbble icon-2x"></i></li>
-          </ul>
           <hr>
-          <p>Copyright &copy; Company 2013</p>
+          <p></p>
         </div>
       </div>
     </div>

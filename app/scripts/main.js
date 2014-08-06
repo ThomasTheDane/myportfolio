@@ -1,4 +1,17 @@
+var doLayouts = function(){
+  if($(window).width() > 992){
+    var cw = $('.project').width();
+    $('.project').css({'height':cw-100+'px'});
+  }else if($(window).width() > 992){
+    var cw = $('.project').width();
+    $('.project').css({'height':cw-(cw / 2)+'px'});
+  }
+};
+
+
 $(function() {
+
+  doLayouts();
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
       || location.hostname == this.hostname) {
@@ -24,4 +37,18 @@ $(function() {
     $("#sidebar-wrapper").toggleClass("active");
   });
 
+
+  $(".project .text").hide();
+
+  $(".project").mouseenter(function(e){
+    $(this).find(".text").slideDown({
+      queue: false
+    });
+  });
+  $(".project").mouseleave(function(e){
+    $(this).find(".text").slideUp();
+  });
+
+
+  $( window ).resize(doLayouts);
 });

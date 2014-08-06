@@ -6103,6 +6103,71 @@ body {
   height: 110px;
   margin: 10px;
 }
+#projects {
+  margin-top: 100px;
+}
+#projects .row {
+  width: 100%;
+}
+#projects .col-xs-12 {
+  padding: 0;
+}
+#projects .col-md-4 {
+  padding: 10px;
+  left: 15px;
+}
+#projects h4 {
+  font-size: 40px;
+  text-align: center;
+}
+#projects .project {
+  background-color: blue;
+  width: 100%;
+  position: relative;
+}
+#projects .project .description {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(19, 24, 25, 0.9);
+  color: white;
+  padding-left: 15px;
+}
+#projects .project .description .text {
+  padding: 10px;
+  list-style: square;
+  font-size: 1.7rem;
+}
+#projects .project .description .text li {
+  margin: 7px;
+}
+#projects .project .description h1 {
+  font-size: 30px;
+}
+#projects #iphoneArduino {
+  background: url(../images/projects/iphoneArduino.png) no-repeat;
+  background-size: 100% auto;
+}
+#projects #iPhoneApps {
+  background: url(../images/projects/iphoneApps.png) no-repeat;
+  background-size: 100% auto;
+}
+#projects #cdc {
+  background: url(../images/projects/cdc.png) no-repeat;
+  background-size: 100% auto;
+}
+#projects #usTubes {
+  background: url(../images/projects/ourtubes.png) no-repeat;
+  background-size: 100% auto;
+}
+#projects #stabilizedGimbal {
+  background: url(../images/projects/stabilizedGimbal.png) no-repeat;
+  background-size: 100% auto;
+}
+#projects #sortingInAssembly {
+  background: url(../images/projects/sortingInAssembly.png) no-repeat;
+  background-size: 100% auto;
+}
 footer {
   padding: 100px 0;
 }
